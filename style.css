@@ -1,0 +1,37 @@
+#start_grow_height{
+    background-color: salmon;
+    border:1px groove ghostwhite;
+    border-radius: 40%;
+}
+#pause_grow_height{
+    background-color: salmon;
+    border:1px groove ghostwhite;
+    border-radius: 40%;
+}
+
+#grow_height{
+    width: 30vw;
+    background-color: bisque;
+}
+
+#disco_ball{
+    width: 10vw;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+#input_height{
+    border:1px groove salmon  ;
+    border-radius: 5vh;
+}
+
+#input_width{
+    border:1px groove salmon  ;
+    border-radius: 5vh;
+}
+
+/* #user_element{
+    border:5px groove salmon  ;
+    border-radius: 30vh;
+} */
+/* springgreen */

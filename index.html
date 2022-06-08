@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Animations</title>
+</head>
+<body onkeydown="keyStopElementHeightGrowwer(event)">
+
+    <div id="grow_height"></div>
+    <button id="start_grow_height" onclick="startElementHeightGrowwer()">GO</button>
+    <button id="pause_grow_height" onclick="pauesElementHeightGrowwer()">PAUSE</button>
+    <br style="height: 10vh;">
+
+    <!-- <button id="start_grow_height" onkeydown="startElementHeightGrowwer(event)"></button> -->
+    <button id="pause_grow_height" >STOP</button>
+    <br style="height: 10vh;">
+    <div id="disco_ball" onclick="changeColor()"></div>
+    <br>
+    <h1>create your element</h1>
+    <label for="input_height">enter height:</label>
+    <input type="number" id="input_height" name="input_height"><br><br>
+    <label for="input_width">enter width:</label>
+    <input type="number" id="input_width" name="input_width"><br><br>
+    <div id="user_element"></div>
+    <button id="create_user_element" onclick="createUserElement()">CREATE</button>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -30,8 +30,12 @@
     border-radius: 5vh;
 }
 
-/* #user_element{
-    border:5px groove salmon  ;
-    border-radius: 30vh;
+/* #color_input{
+    visibility: hidden; 
+}
+
+#name_input{
+    visibility: hidden; 
 } */
 /* springgreen */
+

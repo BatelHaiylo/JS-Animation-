@@ -80,18 +80,20 @@ var linesContainerArr = [];
 // }
 
 function getUserChoice(){
-    for(i=0; i<5; i++){
-        colorContainerArr.push(userColor.value)
-        linesContainerArr.push(userWords.value)
-    }
+    colorContainerArr.push(userColor.value)
+    linesContainerArr.push(userWords.value)
+    userColor.value =""
+    userWords.value = ""
     console.log(colorContainerArr)
     console.log(linesContainerArr)
+    if(colorContainerArr.length && linesContainerArr.length ==5){
+        saveBtn.disabled = "true"
+    }
 }
 
-// function getRandomColorText(colorArray,someElement){
-//     var rndNumRange = Math.floor(Math.random()*colorArray.length)
-//     someElement.style.color = colorArray[rndNumRange]
-// }
-// generateBtn.accessKeyLabel("click",()=>{getRandomColorText(colorContainerArr,coloredText)})
-
+function getRandomColorText(colorArray,someElement){
+    var rndNumRange = Math.floor(Math.random()*colorArray.length)
+    someElement.style.color = colorArray[rndNumRange]
+}
+generateBtn.accessKeyLabel("click",()=>{getRandomColorText(colorContainerArr,coloredText)})
 
